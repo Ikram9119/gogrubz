@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+body{
+    font-family: "Fredoka", sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    font-size: 64px;
+}
+.btn.btn-red{
+    color: #fff;
+    background: #fc353a;
+    border: 2px solid #fc353a;
+    border-radius: 50px;
+    &:hover{
+        color: #fc353a;
+        background: #fff;
+    }
+}
+a{
+    text-decoration: none;
+    color: #000;
+}

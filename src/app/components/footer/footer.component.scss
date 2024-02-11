@@ -1,0 +1,28 @@
+footer{
+margin: 20px 20px;
+    font-family: "Fredoka", sans-serif; 
+    .footer-wrapper{
+        padding: 20px 80px;
+        background-color: #fdf6f2;
+        border-radius: 20px;
+        .footer-log{
+            width: 120px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .nav-item{
+            font-size: 14px;
+        }
+        .copyright-text{
+            margin-top: 20px;
+        }
+        .social-icon{
+            i{
+                font-size: 24px;
+                margin-right: 20px;
+            }
+        }
+    }
+}

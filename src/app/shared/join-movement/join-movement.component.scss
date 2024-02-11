@@ -1,0 +1,16 @@
+.join-movement {
+margin: 20px 20px;
+    font-family: "Fredoka", sans-serif; 
+    border-radius: 20px;
+    background-color: #fdf6f2;
+    .text{
+        padding-left: 80px;
+    }
+  .join-image {
+    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+    img{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+  }
+}

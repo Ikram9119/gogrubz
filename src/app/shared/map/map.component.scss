@@ -1,0 +1,23 @@
+.map {
+  margin: 10px 20px;
+  font-family: "Fredoka", sans-serif;
+  position: relative;
+  .resturant-near{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: fit-content;
+    z-index: 2;
+    background-color: #fff;
+    color: red;
+    padding: 25px;
+    border-radius: 20px;
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+    }
+  }
+  .map-container {
+    border-radius: 20px;
+  }
+}

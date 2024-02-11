@@ -1,0 +1,34 @@
+.download-wrapper{
+margin: 20px 20px;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #fc353a;
+    border-radius: 20px;
+    color: #fff;
+    .app-image{
+        padding: 0 80px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .download-text{
+        h2{
+
+        }
+        p{
+
+        }
+        .download-icons{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            .icon{
+                width: 120px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
